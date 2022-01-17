@@ -2,7 +2,6 @@
 OpenCore 0.7.7 and EFI folder 
 
 This is based on two other projects on github that did not work out of the box for my HP 830 G6
-Machine specs
 
 OpenCore EFI for HP Elitebook 830-G6 with Montery(12.1)
 
