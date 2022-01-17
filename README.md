@@ -25,7 +25,7 @@ OpenCore EFI for HP Elitebook 830-G6 with Montery(12.1)
 - LAN / Ethernet
 - Fn keys
 - Battery Status
-- Wi-Fi / Bluetooth
+- Wi-Fi / Bluetooth (MacBookPro15,2 as system for bluetooth works, MacBookAir8,2 not)
 - HDMI output ( a bit buggy, not always )
 - Sleep
 - HDMI over USB-c ( tested Apple adapter )
@@ -72,7 +72,8 @@ sudo pmset -a autopoweroff 0
 
 Limited support - make sure to use your own DSDT dump and troubleshoot
 The EFI worke for me after an upgrade from Catalina - it might not work with the installer, but it should
-Make sure to fill in your own serial, follow the Dortania guides
+Make sure to fill in your own serial, follow the Dortania guide:
+https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#using-gensmbios (choose model MacBookPro15,2)
 
 Thanks to:
 https://github.com/stevedat/HP-Elitebook-830-G6-Hackintosh
