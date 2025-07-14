@@ -6,10 +6,10 @@
 ![HP](./Screenshot/2.jpg)
 ## Information
 
-- Bios Version: latest as of 16-1-2021
-- ME Firmware - disabled
+- Bios Version: latest R70
+- ME Firmware - Enable
 - Intel i5-8365U with UHD 620
-- 32 GB DDR4
+- 16 GB DDR4
 - PNY 1TB NVMe SSD
 - AX200 wifi / bluetooth
 
