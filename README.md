@@ -1,9 +1,11 @@
-# HP Elitebook 830 G6
+[![](https://img.shields.io/badge/Reposity-Baio77-informational?style=flat&logo=apple&logoColor=white&color=9debeb)](https://github.com/Baio1977?tab=repositories)
+[![](https://img.shields.io/badge/Telegram-HackintoshLifeIT-informational?style=flat&logo=telegram&logoColor=white&color=5fb659)](https://t.me/HackintoshLife_it)
 
-## Display Output
+# HP Elitebook 830 G6
 
 ![HP](./Screenshot/1.jpg)
 ![HP](./Screenshot/2.jpg)
+
 ## Information
 
 - Bios Version: latest R70
