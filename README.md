@@ -8,7 +8,7 @@
 
 ## Information
 
-- Bios Version: latest R70
+- Bios Version: R70 V.1.21.10 2022
 - ME Firmware - Enable
 - Intel i5-8365U with UHD 620
 - 16 GB DDR4
