@@ -4,7 +4,7 @@
 # HP Elitebook 830 G6
 
 ![HP](./Screenshot/1.jpg)
-![HP](./Screenshot/2.jpg)
+![HP](./Screenshot/2.png)
 
 ## Information
 
