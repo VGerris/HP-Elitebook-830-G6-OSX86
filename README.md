@@ -1,5 +1,9 @@
 # HP Elitebook 830 G6
 
+## Display Output
+
+![HP](./Screenshot/1.jpg)
+![HP](./Screenshot/2.jpg)
 ## Information
 
 - Bios Version: latest as of 16-1-2021
@@ -23,14 +27,19 @@
 - HDMI output ( HDMI - Type-C -TB3 )
 - Sleep
 
-## To Fix
+## USB
 
-- Mic (ALC215 Not Supported even with latest AppleALC and Layout-ID 18 injected)
-- Webcam ( might not be possible )
+![HP](./Screenshot/3.png)
 
-## Won't Fix
+## Display Output
 
-- FingerPrint Sensor / TouchID (Not recognized)
+![HP](./Screenshot/4.png)
+![HP](./Screenshot/5.png)
+
+## SSDT Full Hack
+
+![HP](./Screenshot/6.png)
+![HP](./Screenshot/7.png)
 
 ## BIOS Settings
 
