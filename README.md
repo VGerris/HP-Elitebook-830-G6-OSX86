@@ -1,16 +1,17 @@
-# HP Elitebook 830 G6 OSX86 (hackintosh)
-OpenCore 0.7.7 and EFI folder 
+[![](https://img.shields.io/badge/Reposity-Baio77-informational?style=flat&logo=apple&logoColor=white&color=9debeb)](https://github.com/Baio1977?tab=repositories)
+[![](https://img.shields.io/badge/Telegram-HackintoshLifeIT-informational?style=flat&logo=telegram&logoColor=white&color=5fb659)](https://t.me/HackintoshLife_it)
 
-This is based on two other projects on github that did not work out of the box for my HP 830 G6
+# HP Elitebook 830 G6
 
-OpenCore EFI for HP Elitebook 830-G6 with Montery(12.1)
+![HP](./Screenshot/1.jpg)
+![HP](./Screenshot/2.png)
 
-## Basic Information
+## Information
 
-- Bios Version: latest as of 16-1-2021
-- ME Firmware - disabled
+- Bios Version: R70 V.1.21.10 2022
+- ME Firmware - Enable
 - Intel i5-8365U with UHD 620
-- 32 GB DDR4
+- 16 GB DDR4
 - PNY 1TB NVMe SSD
 - AX200 wifi / bluetooth
 
@@ -24,24 +25,23 @@ OpenCore EFI for HP Elitebook 830-G6 with Montery(12.1)
 - LAN / Ethernet
 - Fn keys
 - Battery Status
-- Wi-Fi / Bluetooth (MacBookPro15,2 as system for bluetooth works, MacBookAir8,2 not)
-- HDMI output ( a bit buggy, not always )
+- Wi-Fi / Bluetooth
+- HDMI output ( HDMI - Type-C -TB3 )
 - Sleep
-- HDMI over USB-c ( tested Apple adapter )
-- Dell D6000 dock with DisplayLink driver and 2 screens / audio
 
-## To Fix
+## USB
 
-- Mic (ALC215 Not Supported even with latest AppleALC and Layout-ID 18 injected)
-- Webcam ( might not be possible )
+![HP](./Screenshot/3.png)
 
-## Not tested
+## Display Output
 
-- Thunderbolt 3 - not visible in device properties but needs to be enables in BIOS for dock to work
+![HP](./Screenshot/4.png)
+![HP](./Screenshot/5.png)
 
-## Won't Fix
+## SSDT Full Hack
 
-- FingerPrint Sensor / TouchID (Not recognized)
+![HP](./Screenshot/6.png)
+![HP](./Screenshot/7.png)
 
 ## BIOS Settings
 
@@ -49,15 +49,11 @@ OpenCore EFI for HP Elitebook 830-G6 with Montery(12.1)
 
 - Disable Legacy boot and Secure boot
 
-- iGPU Memory set to 64MB
+- iGPU Memory (DVMT) set to 64MB
 
 - disable wake on LAN/USB whatever for sleep to work
 
-## About Sleeping and Hibernation
-
-Sleeping works well but you cannot enable hibernation. It will freeze up when macOS try to hibernate.
-
-You can disable hibernation by follow steps:
+## Disable hibernation by follow steps:
 
 ```bash
 sudo pmset -a hibernatemode 0
@@ -66,22 +62,3 @@ sudo mkdir /var/vm/sleepimage
 sudo pmset -a standby 0
 sudo pmset -a autopoweroff 0
 ```
-
-## About this project 
-
-Limited support - make sure to use your own DSDT dump and troubleshoot
-The EFI worke for me after an upgrade from Catalina - it might not work with the installer, but it should
-Make sure to fill in your own serial, follow the Dortania guide:
-https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#using-gensmbios (choose model MacBookPro15,2)
-
-Thanks to:
-https://github.com/stevedat/HP-Elitebook-830-G6-Hackintosh
-snd
-https://github.com/tookdes/HP-Elitebook-830-G6-Hackintosh
-and all the great people making this possible!
-
-P.S. If you know how to fix the mic or webcam, please make a PR or a ticket.
-Thank you 
-
-
-
